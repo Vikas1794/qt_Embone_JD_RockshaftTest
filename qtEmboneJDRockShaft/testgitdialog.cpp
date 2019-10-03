@@ -17,4 +17,5 @@ testGitDialog::~testGitDialog()
 void testGitDialog::on_pushButton_clicked()
 {
     ui->label->setText("vikas");
+    //add by online
 }
