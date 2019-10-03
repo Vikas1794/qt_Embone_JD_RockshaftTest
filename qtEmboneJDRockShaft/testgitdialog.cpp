@@ -6,9 +6,15 @@ testGitDialog::testGitDialog(QWidget *parent) :
     ui(new Ui::testGitDialog)
 {
     ui->setupUi(this);
+    ui->label->setAlignment(Qt::AlignCenter);
 }
 
 testGitDialog::~testGitDialog()
 {
     delete ui;
+}
+
+void testGitDialog::on_pushButton_clicked()
+{
+    ui->label->setText("vikas");
 }

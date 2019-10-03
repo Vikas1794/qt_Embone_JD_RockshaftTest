@@ -15,6 +15,9 @@ public:
     explicit testGitDialog(QWidget *parent = nullptr);
     ~testGitDialog();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::testGitDialog *ui;
 };
